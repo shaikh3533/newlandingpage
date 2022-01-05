@@ -1,0 +1,17 @@
+
+
+.heading {
+    color: #4D4D4D;
+}
+
+.margin {
+    margin-top: 150px;
+}
+
+
+.button {
+    background: linear-gradient(to bottom, #00DDC6, #00AEE1);
+    font-size: 28px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}

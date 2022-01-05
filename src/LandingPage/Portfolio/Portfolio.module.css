@@ -1,0 +1,87 @@
+.margin {
+    padding-top: 200px !important;
+}
+
+.bgDiv {
+    display            : flex;
+    flex-direction     : column;
+    background-color   : #EDEDED;
+    text-align         : center;
+    border-radius      : 30px;
+    /* position        : relative; */
+    transition         : 300ms ease-in-out;
+    font-size          : 5vw;
+    width              : 90%;
+}
+
+.bgDiv .bgDivInner,
+.portfolio .Inner {
+    transition: 300ms ease-in-out;
+
+}
+
+.bgDiv:hover,
+.portfolio:hover {
+    transform: scale(1.04);
+}
+
+.bgDiv:hover .bgDivInner,
+.portfolio:hover .Inner {
+    transform: scale(0.96);
+}
+
+.bold {
+    font-weight: 900;
+    color      : #00DDC6;
+}
+
+.adjointBtn {
+    width     : 90%;
+    margin-top: -40px;
+}
+
+
+.portfolio {
+    background   : linear-gradient(to top, #00DDC6, #00AEE1);
+    font-size    : 1.5vw;
+    /* position  : absolute; */
+    text-align   : center;
+    transition   : 300ms ease;
+    margin       : 0.5vw;
+    width        : 50%;
+    z-index      : 9999;
+
+}
+.Inner p:first-child {
+    font-size: 1.7vw;
+  }
+.Inner p:nth-child(2) {
+    font-size: 2.5vw;
+  }
+
+
+
+.button {
+    width           : 350px;
+    height          : 52px;
+    border-radius   : 50px 50px;
+    border          : none;
+    background-color: #4D4D4D !important;
+    color           : white !important;
+    font-weight     : bold;
+    font-size       : 20px !important;
+    padding         : 6px 6px !important;
+    transition      : 400ms ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+@media only screen and (min-width: 992px) {
+
+    /* for screen greater than 992px */
+    .bgDiv {
+        font-size: 100px;
+    }
+}

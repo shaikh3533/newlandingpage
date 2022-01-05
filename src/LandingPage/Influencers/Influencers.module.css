@@ -1,0 +1,46 @@
+.heading1 {
+    color: #4D4D4D;
+}
+
+.margin {
+    margin-top: 150px;
+}
+
+.cardContainer {
+    background: #EDEDED;
+}
+
+.cardImg {
+    width : 60px;
+    height: 60px;
+}
+
+.cardName{
+    font-size:30px;
+}
+
+.cardType {
+    font-size: 14px;
+}
+
+.cardTitle {
+    color    : #3d3d3d;
+    font-size: 18px;
+}
+
+.button {
+    width           : 350px;
+    height          : 52px;
+    border-radius   : 50px 50px;
+    border          : none;
+    background-color: #4D4D4D !important;
+    color           : white !important;
+    font-weight     : bold;
+    font-size       : 20px !important;
+    padding         : 6px 6px !important;
+    transition      : 400ms ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}

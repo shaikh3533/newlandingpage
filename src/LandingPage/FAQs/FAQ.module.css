@@ -1,0 +1,23 @@
+.heading1 {
+    color: #4D4D4D;
+}
+
+.accordianCss {
+    border-color: #707070 !important;
+    background: #EDEDED !important;
+    color: #00AEE1 !important;
+    border-radius: 15px !important;
+    font-size: 20px !important;
+}
+
+.accordiandiv {
+    border: none !important;
+}
+
+.accordianbody {
+    color: white;
+    background: #4D4D4D;
+    border-radius: 20px;
+    margin-top: 1%;
+    font-size: 20px !important;
+}

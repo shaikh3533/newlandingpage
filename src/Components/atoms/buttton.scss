@@ -1,0 +1,39 @@
+// variables
+
+$standard: #155799;
+
+$white: #f1f2f2;
+$transition: all 0.25s ease-in-out;
+
+// mixin
+@mixin mybutton($color_1, $color_2) {
+  color: $color_1;
+  background-color: $color_2;
+  transition: $transition;
+  &:hover {
+    background-color: $color_1;
+    border-color: $color_1;
+    color: $color_2;
+  }
+  &:active {
+    background-color: $color_1;
+    border-color: $color_1;
+    color: $color_2;
+    box-shadow: none;
+  }
+  &:focus,
+  &:active:focus {
+    background-color: $color_1;
+    border-color: $color_1;
+    color: $color_2;
+    outline: 5px auto $color_1;
+  }
+  &:visited {
+    background-color: $color_1;
+    border-color: $color_1;
+  }
+}
+
+.btn {
+  @include mybutton($standard, $white);
+}

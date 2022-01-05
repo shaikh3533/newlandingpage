@@ -1,0 +1,137 @@
+.margin {
+    margin-top: 200px;
+    margin-bottom: 10px;
+}
+
+.heading1 {
+    font-size: 35px;
+    font-weight: 900 !important;
+    color: #4D4D4D;
+    margin-bottom: 20px !important;
+}
+
+.button1 {
+    background-image: linear-gradient(to bottom, #00DDC6, #00AEE1);
+    color: white;
+    width: 17vw;
+    height: 150px;
+    font-size: 1.2vw;
+    font-weight: bold;
+    text-align: right;
+    left: 0;
+    padding-right: 50px;
+    position: absolute;
+    border: none;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    transition: 300ms linear;
+}
+
+/* .button1:focus {
+    width: 870px;
+}
+
+.focus1 {
+    width: 870px;
+} */
+
+.button_11 {
+    background-color: #4D4D4D !important;
+    border: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 921px;
+    height: 35px;
+    margin-left: -400px;
+    padding-left: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px !important;
+    text-align: left;
+    position: absolute;
+    transition: 300ms linear;
+}
+
+.button_11:hover {
+    transform: scale(1.1);
+}
+
+.button_22 {
+    background-color: #4D4D4D !important;
+    border: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 921px;
+    height: 35px;
+    margin-left: -600px;
+    padding-right: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px !important;
+    text-align: right;
+    position: absolute;
+    transition: 300ms linear;
+}
+
+.button_22:hover {
+    transform: scale(1.1);
+}
+
+.list1 {
+    font-size: large;
+    font-weight: bold;
+    list-style-type: none;
+    line-height: 40px;
+    color: #4D4D4D;
+    margin-left: 200px;
+    margin-top: 200px;
+    text-align: right;
+    padding-right: 50px;
+    animation: fadeIn linear 1.5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.button2 {
+    background-image: linear-gradient(to bottom, #00DDC6, #00AEE1);
+    color: white;
+    width: 30vw;
+    height: 150px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+    right: 0;
+    padding-left: 50px;
+    position: absolute;
+    border: none;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    transition: 300ms linear;
+}
+
+
+.button2:focus {
+    width: 800px;
+    margin-left: 430px;
+}
+
+.list2 {
+    font-size: large;
+    font-weight: bold;
+    list-style-type: none;
+    line-height: 40px;
+    color: #4D4D4D;
+    margin-left: 430px;
+    margin-top: 200px;
+    padding-right: 50px;
+    text-align: left;
+    animation: fadeIn linear 1s;
+}

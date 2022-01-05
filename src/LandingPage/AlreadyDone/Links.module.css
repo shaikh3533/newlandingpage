@@ -1,0 +1,14 @@
+.links{
+    margin: auto;
+    transition: 200ms ease-in-out;
+    width: 70%;
+}
+
+.links:hover{
+    transform: scale(1.2);
+}
+
+.linkDiv{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

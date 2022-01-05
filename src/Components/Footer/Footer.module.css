@@ -1,0 +1,12 @@
+.footerDiv {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 10px 10px -12px inset, rgba(0, 0, 0, 0.3) 0px 10px 10px -18px inset;
+}
+
+.mainDiv {
+    flex-wrap: wrap;
+}
+
+.footerLink {
+    text-decoration: none !important;
+    color: #4D4D4D;
+}

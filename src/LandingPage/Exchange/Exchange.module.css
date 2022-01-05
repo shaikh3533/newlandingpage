@@ -1,0 +1,73 @@
+.heading1 {
+    color: #4D4D4D;
+}
+
+/* .exhng {
+    justify-content: space-around;
+    flex-wrap      : wrap;
+    flex-direction: row;
+}
+
+.exhng>div {
+    flex: 1 1 auto;
+} */
+.exhng>div svg {
+    width: 70%;
+}
+
+.exchangeLogo1>svg,
+.exchangeLogo2>img,
+.exchangeLogo3>svg,
+.exchangeLogo4>svg,
+.exchangeLogo5>img,
+.exchangeLogo6>svg {
+    width: 70%;
+}
+.exchangeLogo4>svg, .exchangeLogo6>svg{
+    max-height:53px
+}
+
+.exchangeLogo1 text,
+.exchangeLogo1 rect,
+.exchangeLogo2,
+.exchangeLogo3 path,
+.exchangeLogo4 path,
+.exchangeLogo4 rect,
+.exchangeLogo5,
+.exchangeLogo6 path {
+    transition: fill 1.3s ease;
+}
+
+.exchangeLogo2,
+.exchangeLogo5 {
+    filter: grayscale();
+}
+
+.exchangeLogo1:hover text,
+.exchangeLogo1:hover rect {
+    fill: #F3BA2D !important;
+}
+
+
+.exchangeLogo2:hover,
+.exchangeLogo5:hover {
+    filter: none;
+}
+
+.exchangeLogo3:hover path {
+    fill: #23AF91 !important;
+}
+
+
+.exchangeLogo4:hover rect {
+    fill: #43AFC8 !important;
+}
+
+.exchangeLogo4:hover path {
+    fill: #000000 !important;
+}
+
+
+.exchangeLogo6:hover path {
+    fill: #6C3DE0 !important;
+}

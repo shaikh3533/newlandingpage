@@ -1,0 +1,193 @@
+.heading1 {
+    color: #4D4D4D;
+}
+
+.button {
+    border-radius   : 50px 50px;
+    border          : none;
+    background-color: #4D4D4D !important;
+    color           : white !important;
+    font-weight     : bold;
+    font-size       : 16px !important;
+    padding         : 6px 6px !important;
+    transition      : 400ms linear;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.Screens {
+    min-height: 400px;
+}
+
+
+.backgroundImage {
+    background               : linear-gradient(to right, #00AEE1, #00DDC6);
+    position                 : absolute;
+    width                    : 47.92%;
+    height                   : 40vw;
+    max-height               : 100%;
+    border-bottom-left-radius: 7%;
+    border-top-left-radius   : 7%;
+    transition               : 300ms linear;
+    bottom                   : 0;
+    right                    : 0;
+}
+
+.backgroundImage:hover {
+
+    transform: scale(1.04);
+}
+
+.pc2:hover {
+    transform       : scale(1.2);
+    transform-origin: 0% 0%;
+}
+
+.notepad:hover,
+.mobile:hover {
+    transform       : scale(1.4);
+    transform-origin: 0% 0%;
+}
+
+.pc1 {
+    width     : auto;
+    height    : 25vw;
+    position  : absolute;
+    bottom    : 3vw;
+    right     : 18vw;
+    transition: 300ms linear;
+}
+
+.hoverImg {
+    position  : absolute;
+    width     : auto;
+    height    : 6.5vw;
+    transition: 300ms linear;
+    opacity   : 0;
+    bottom    : 13vw;
+    right     : 26vw;
+}
+
+.pc1:hover+.hoverImg {
+    opacity: 1 !important;
+}
+
+.pc2 {
+    width     : auto;
+    height    : 15vw;
+    position  : absolute;
+    right     : 3vw;
+    transition: 300ms linear;
+    bottom    : 1vw;
+}
+
+.notepad {
+    width     : auto;
+    height    : 15vw;
+    position  : absolute;
+    bottom    : 2vw;
+    transition: 300ms linear;
+    right     : 38vw;
+}
+
+.mobile {
+    width     : auto;
+    height    : 10vw;
+    position  : absolute;
+    transition: 300ms linear;
+    bottom    : 1vw;
+    right     : 46vw;
+}
+
+
+@media (max-width: 992px) {
+    .Screens {
+        min-height: 64vw;
+        position  : relative;
+    }
+
+    .backgroundImage {
+        width : 90vw;
+        height: 100%;
+    }
+
+    .pc1 {
+        width : auto;
+        height: 50vw;
+        left  : 5vw;
+    }
+
+    .hoverImg {
+        width : 24vw;
+        height: auto;
+        left  : 25vw;
+        bottom: 25vw;
+    }
+
+    .pc2 {
+        width : 50vw;
+        height: auto;
+        right : 2vw;
+        bottom: 1vw;
+    }
+
+
+    .notepad {
+        height: 25vw;
+        width : auto;
+        bottom: 2vw;
+        left  : 2vw;
+    }
+
+    .mobile {
+        height: 15vw;
+        width : auto;
+        bottom: 1vw;
+        left  : 0vw;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .height {
+        height: 30vw
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .backgroundImage {
+        width: 46vw
+    }
+
+    /* .hoverImg {
+        width : 24vw;
+        height: auto;
+        left  : 25vw;
+        bottom: 25vw;
+    } */
+
+    /* .pc2 {
+        width : 50vw;
+        height: auto;
+        right : 2vw;
+        bottom: 1vw;
+    } */
+
+
+    /* .notepad {
+        height: 25vw;
+        width : auto;
+        bottom: 2vw;
+        left  : 2vw;
+    } */
+
+    /* .mobile {
+        height: 15vw;
+        width : auto;
+        bottom: 1vw;
+        left  : 0vw;
+    } */
+}

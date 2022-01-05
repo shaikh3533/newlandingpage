@@ -1,0 +1,49 @@
+.h3 {
+    font-weight: bolder !important;
+    color: #4D4D4D !important;
+}
+.heading1 {
+    font-size: 35px;
+    font-weight: 900 !important;
+    color: #4D4D4D;
+    margin-bottom: 20px !important;
+}
+.paragraph p{
+    font-weight: bolder !important;
+}
+.formField{
+    border-radius: 20px  !important;
+    background-color: #4D4D4D;
+    border-color: #707070;
+    font-size: small;
+    color: white;
+    padding-left: 15px;
+}
+.formField:focus , .messageField:focus  {
+    border-radius: 20px  !important;
+    background-color: #4D4D4D;
+    border-color: #707070;
+    font-size: small;
+    padding-left: 15px;
+    color: white !important;
+}
+.formField::placeholder , .messageField::placeholder{
+    color: white;
+}
+.messageField {
+    border-radius: 10px  !important;
+    background-color: #4D4D4D;
+    border-color: #707070;
+    font-size: small;
+    color: white;
+    padding-left: 15px;
+}
+.sendbutton{
+    border-radius: 50px 50px;
+    border: none;
+    background-image: linear-gradient(to right, #00DDC6, #00AEE1);
+    color: white !important;
+    width: 352.34px;
+    height: 38.35px;
+    font-weight: bolder;
+}
