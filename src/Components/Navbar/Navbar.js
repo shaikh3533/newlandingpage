@@ -33,19 +33,19 @@ const Navbar = () => {
               <div className="ms-auto mt-2">
                 <ul className="navbar-nav">
                   <li className="nav-item my-auto">
-                    <a activeClassName='menu_active' href='/#WhatIsCopyTrading' exact className={`nav-link`}>What is Copy Trading</a>
+                    <a activeClassName='menu_active' href='/#WhatIsCopyTrading' exact className='fs-5 nav-link'>What is Copy Trading</a>
                   </li>
                   <li className="nav-item my-auto">
-                    <a activeClassName='menu_active' href='/#WhyCopyTrading' exact className={`nav-link`}>Why Copy Trading</a>
+                    <a activeClassName='menu_active' href='/#WhyCopyTrading' exact className='fs-5 nav-link'>Why Copy Trading</a>
                   </li>
                   <li className="nav-item my-auto">
-                    <a activeClassName='menu_active' href='/#Pros' exact className={`nav-link`}>Pros</a>
+                    <a activeClassName='menu_active' href='/#Pros' exact className='fs-5 nav-link'>Pros</a>
                   </li>
                   <li className="nav-item my-auto">
-                    <a activeClassName='menu_active' href='/#HowItWorks' exact className={`nav-link`}>How it works</a>
+                    <a activeClassName='menu_active' href='/#HowItWorks' exact className='fs-5 nav-link'>How it works</a>
                   </li>
                   <li className="nav-item my-auto">
-                    <a activeClassName='menu_active' href='/#FAQ' exact className={`nav-link`}>FAQ</a>
+                    <a activeClassName='menu_active' href='/#FAQ' exact className='fs-5 nav-link'>FAQ</a>
                   </li>
                 </ul>
               </div>
