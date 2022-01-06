@@ -69,9 +69,9 @@ const Home = () => {
                         <FavTrader />
                     </div>
                 </div>
-                <div className='linesBackGround d-none'>
-                    <div className='Section5 my-3 row'>
-                        <div className="col-11">
+                <div className='linesBackGround'>
+                    <div className=''>
+                        <div className="">
                             <Pros />
                         </div>
                     </div>

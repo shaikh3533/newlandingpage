@@ -41,10 +41,10 @@ export default function FavTrader() {
             <div className='row'>
                 <div className={`${classes.margin}`}>
                     <div className={classes.height}>
-                        <b className={`ExtraBold pt-5 fs-1 ${classes.heading1}`}>Follow your favourite trader and start Copy Trading</b>
+                        <p className={`ExtraBold pb-5 ${classes.heading1}`}>Follow your favourite trader and start Copy Trading</p>
 
                         <div className={`text-center mt-5 py-5 ${classes.bgDiv}`}>
-                            <div className='position-relative'>
+                            <div className={`position-relative ${classes.divRelative}`}>
                                 <button className={`ms-auto ${classes.button1}`} onFocus={handleClick_1}>HOME SOCIAL FEED</button>
                                 <button className={` ${classes.button2}`} onFocus={handleClick_2} >YOUR TRADING DATA</button>
                                 <button className={` ${classes.button3}`} onFocus={handleClick_3}>CHOOSE THE BEST TRADERS</button>

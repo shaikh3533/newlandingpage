@@ -1,19 +1,18 @@
 .margin {
     margin-top: 5.0rem;
-    margin-bottom: 5.0rem;
 }
 
 .heading1 {
-    font-size: 3.5rem;
+    font-size: 2.2vw;
     font-weight: 900 !important;
     color: #4D4D4D;
-    margin-bottom: 2.0rem !important;
+    margin-bottom: 1vw !important;
 }
 
 .bgDiv {
     background: linear-gradient(to right, #00AEE1, #00DDC6);
     width: 100%;
-    height: 30vw;
+    height: 26vw;
     max-height: 350%;
     border-bottom-left-radius: 7.0rem;
     border-top-left-radius: 7.0rem;
@@ -58,6 +57,10 @@
     width: auto;
     height: 26vw;
     transition: 300ms linear;
+}
+
+.divRelative {
+    margin-top: -3.5vw !important;
 }
 
 /* .ChartScreen {
@@ -141,7 +144,7 @@
     background: transparent;
     border: none;
     color: white;
-    font-size: 1.6rem;
+    font-size: 1.3vw;
     font-weight: 900;
     text-align: center;
     width: 23.0rem;
@@ -155,7 +158,7 @@
 .button1 {
     text-align: center;
     vertical-align: middle;
-    font-size: 1.6rem;
+    font-size: 1.3vw;
     border: none;
     color: white;
     font-weight: 900;
@@ -164,16 +167,17 @@
     height: 7vw;
     width: 15vw;
     position: absolute;
-    border-radius: .7rem;
     top: 4vw;
     left: 10.7vw;
     transition: 300ms linear;
+    border-bottom-left-radius: 5vw;
+    border-top-left-radius: 5vw;
 }
 
 .button2 {
     text-align: center;
     vertical-align: middle;
-    font-size: 1.6rem;
+    font-size: 1.3vw;
     border: none;
     color: white;
     font-weight: 900;
@@ -182,16 +186,17 @@
     height: 7vw;
     width: 15vw;
     position: absolute;
-    border-radius: .7rem;
     bottom: 4vw;
     left: 10.7vw;
     transition: 300ms linear;
+    border-bottom-left-radius: 5vw;
+    border-top-left-radius: 5vw;
 }
 
 .button3 {
     vertical-align: middle;
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.3vw;
     border: none;
     color: white;
     font-weight: 900;
@@ -204,12 +209,14 @@
     top: 4vw;
     right: 10.7vw;
     transition: 300ms linear;
+    border-bottom-right-radius: 5vw;
+    border-top-right-radius: 5vw;
 }
 
 .button4 {
     text-align: center;
     vertical-align: middle;
-    font-size: 1.6rem;
+    font-size: 1.3vw;
     border: none;
     color: white;
     font-weight: 900;
@@ -218,34 +225,29 @@
     height: 7vw;
     width: 15vw;
     position: absolute;
-    border-radius: .7rem;
     bottom: 4vw;
     right: 10.7vw;
     transition: 300ms linear;
+    border-bottom-right-radius: 5vw;
+    border-top-right-radius: 5vw;
 }
 
 .button1:focus, .button2:focus {
     transform: scale(1.2);
     color: #4D4D4D;
     background: linear-gradient(to right, rgb(237, 237, 237, 1)97%, black);
-    border-bottom-left-radius: 5vw;
-    border-top-left-radius: 5vw;
 }
 
 .button3:focus, .button4:focus {
     transform: scale(1.2);
     color: #4D4D4D;
     background: linear-gradient(to left, rgb(237, 237, 237, 1)97%, black);
-    border-bottom-right-radius: 5vw;
-    border-top-right-radius: 5vw;
 }
 
 .focus4 {
     transform: scale(1.2);
     color: #4D4D4D;
     background: linear-gradient(to left, rgb(237, 237, 237, 1)97%, black);
-    border-bottom-right-radius: 5vw;
-    border-top-right-radius: 5vw;
 }
 
 /* .div2 {
@@ -257,34 +259,10 @@
 
 @media (max-width: 1500px) {
 
-
-    .button4,
-    .button3 {
-        font-weight: 700;
-        font-size: 1.1rem;
+    .divRelative {
+        margin-top: -6vw !important;
     }
 
-    .button2,
-    .button1 {
-        font-weight: 700;
-        font-size: 1.1rem;
-    }
-}
-
-@media (max-width: 1300px) {
-
-
-    .button4,
-    .button3 {
-        font-weight: 700;
-        font-size: 1.1rem;
-    }
-
-    .button2,
-    .button1 {
-        font-weight: 700;
-        font-size: 1.1rem;
-    }
 }
 
 @media (max-width: 995px) {
@@ -304,7 +282,6 @@
         right: 0;
         top: 0;
         bottom: 0;
-        border-radius: 7vw;
     }
 
     .button1:focus,
@@ -314,6 +291,10 @@
     .focus4 {
         background: transparent;
     }
+
+    .divRelative {
+        margin-top: 0 !important;
+    }
 }
 
 /* 
@@ -321,7 +302,7 @@
     background: transparent;
     border: none;
     color: white;
-    font-size: 1.6rem;
+    font-size: 1.3vw;
     font-weight: 900;
     padding-left: 1.0rem;
     text-align: center;
@@ -337,7 +318,7 @@
     background: transparent;
     border: none;
     color: white;
-    font-size: 1.6rem;
+    font-size: 1.3vw;
     font-weight: 900;
     padding-left: 1.0rem;
     text-align: center;
@@ -472,7 +453,7 @@
 .button1 {
     text-align: center;
     vertical-align: middle;
-    font-size: 1.6rem;
+    font-size: 1.3vw;
     border: none;
     color: white;
     font-weight: 900;
@@ -490,7 +471,7 @@
 .button2 {
     text-align: center;
     vertical-align: middle;
-    font-size: 1.6rem;
+    font-size: 1.3vw;
     border: none;
     color: white;
     font-weight: 900;
@@ -508,7 +489,7 @@
 .button3 {
     vertical-align: middle;
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.3vw;
     border: none;
     color: white;
     font-weight: 900;
@@ -526,7 +507,7 @@
 .button4 {
     text-align: center;
     vertical-align: middle;
-    font-size: 1.6rem;
+    font-size: 1.3vw;
     border: none;
     color: white;
     font-weight: 900;
@@ -569,14 +550,14 @@
     .button3 {
         right: 8.3vw;
         font-weight: 700;
-        font-size: 1.1rem;
+        font-size: 1.3vw;
     }
 
     .button2,
     .button1 {
         left: 8.2vw;
         font-weight: 700;
-        font-size: 1.1rem;
+        font-size: 1.3vw;
     }
 }
 
@@ -587,14 +568,14 @@
     .button3 {
         right: 8.1vw;
         font-weight: 700;
-        font-size: 1.1rem;
+        font-size: 1.3vw;
     }
 
     .button2,
     .button1 {
         left: 7.9vw;
         font-weight: 700;
-        font-size: 1.1rem;
+        font-size: 1.3vw;
     }
 }
 
