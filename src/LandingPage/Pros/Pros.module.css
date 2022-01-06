@@ -17,7 +17,7 @@
     font-weight: bold;
     text-align: right;
     left: 0;
-    padding-right: 2vw;
+    padding-right: 15px;
     position: absolute;
     border: none;
     border-top-right-radius: 40px;
@@ -34,7 +34,7 @@
     font-weight: bold;
     text-align: left;
     right: 0;
-    padding-left: 2vw;
+    padding-left: 15px;
     position: absolute;
     border: none;
     border-top-left-radius: 40px;
@@ -55,11 +55,11 @@
     border-bottom-left-radius: 50px;
     width: 70vw;
     height: 40px;
-    padding: 0px 30px;
+    padding: 0px 30px 0px ;
     color: white;
     right: 0;
     font-weight: bold;
-    font-size: 1.5vw !important;
+    font-size: 1.3vw !important;
     text-align: left;
     position: absolute;
     transition: 300ms linear;
@@ -81,7 +81,7 @@
     color: white;
     left: 0;
     font-weight: bold;
-    font-size: 1.5vw !important;
+    font-size: 1.3vw !important;
     text-align: right;
     position: absolute;
     transition: 300ms linear;
@@ -127,7 +127,6 @@
     }
 
     .button1, .button2 {
-        font-size: 1.8vw;
         height: 120px;
     }
 }
@@ -143,7 +142,8 @@
     }
 
     .button1, .button2 {
-        font-size: 3vw;
+        font-size: 1.7vw;
+        height: 80px;
     }
 }
 
