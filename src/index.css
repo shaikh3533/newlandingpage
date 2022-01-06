@@ -139,7 +139,6 @@ p {
 }
 
 .full button {
-  width: 100%;
   width: max-content;
   padding: 5px;
 }
